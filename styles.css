@@ -12,22 +12,39 @@ html, body{
     6. border radius */
 
 /* عند الحاجه w3schools قم بالاستعانه بموقع  */
-
+.bottom {
+    display: flex;
+    padding: 0px;
+    height: 100%;
+}
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
+    background-color: black;
+    height: 100%;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 80px;
+    background-color: blanchedalmond;
+    font-size: 11px;
+    margin-left: 8px;
 }
 
 .main{
+    background-color: chocolate;
+    height: 100%;
+    margin-top: 8px;
+    margin-left: 8px;
+   
 
 }
 
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
 }
 
 /* !بــونص */
@@ -44,5 +61,6 @@ h1{
 h2{
     margin: 0;
     margin-left: 5px;
+    color: white;
 }
 
